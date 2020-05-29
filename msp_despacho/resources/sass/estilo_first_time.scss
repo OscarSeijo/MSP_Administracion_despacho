@@ -1,0 +1,196 @@
+.red_bordercolor{
+    border: 2px solid red;
+}
+
+.green_bordercolor{
+    border: 2px solid green;
+}
+
+.contenedor_primera_vez{
+	background-color: $colorPrimario;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+
+
+	.contenedor_centro{
+		position: absolute;
+		top: 50%; left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+
+
+	// contenedor_centro
+	}
+
+	.contenedor_scroll{
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+		overflow-x: hidden;
+		overflow-y: scroll;
+
+	}
+
+
+	.close{
+		position: absolute;
+		top: 10px; right: 10px;
+		cursor: pointer;
+		z-index: 10000;
+	}
+
+
+
+
+	h1, h2, h3, h4, h5, h6, p{
+		text-align: center;
+	}
+
+
+	.Button_submit{
+		width: 100%;
+		padding: 10px 0;
+		margin-top: 15px;
+		border: 0;
+		border-radius: 5px;
+
+		font-weight: bold;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		color: white;
+		background-color: $colorSecundario;
+
+		i{
+			padding-right: 7px;
+			color: white;
+		}
+	}
+
+
+	.Button_submit:hover{
+		background-color: $colorSecundarioDark;
+	}
+
+
+
+	a{
+		width: 100%!important;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.contenedor_inicio{
+		width: 100%;
+		height: 100vh;
+		margin: auto;
+		background-color: $white;
+		border-radius: 10px;
+		overflow: hidden;
+		box-sizing: border-box;
+
+
+
+		.contenedor_imagen{
+			width: 100%;
+			overflow: hidden;
+			background-color: $white2;
+
+			.imagen{
+				width: 60%;
+				margin: auto;
+
+				img{
+					width: 100%;
+				}
+			}
+
+		}
+
+
+		.contenedor_texto{
+			padding: 25px;
+
+			h1{
+				color: $colorSecundario;
+			}
+
+		}
+
+
+	}
+
+
+
+
+
+
+	#bienvenida_site{
+		max-width: 400px!important;
+		max-height: 530px;
+		position: relative;
+	}
+
+
+
+	#conclusion_site{
+		display: none;
+		max-width: 400px;
+		max-height: 430px;
+		position: relative;
+	}
+
+
+
+
+
+
+
+	.contenedor_formulario{
+		display: none;
+		max-width: 700px;
+		max-height: 80vh;
+		padding: 20px;
+
+
+		h4{
+			width: 80%;
+			margin: auto;
+			padding-bottom: 20px;
+		}
+
+		.linea{
+			width: 100%;
+			border: 1px solid green;
+			margin: 10px 0;
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+// contenedor_primera_vez
+}

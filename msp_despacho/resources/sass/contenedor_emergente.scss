@@ -1,0 +1,212 @@
+
+
+.contenedor_emergente{
+	width: 100%;
+	height: 100vh;
+	top: 0; left: 0;
+	position: fixed;
+	z-index: 1000000;
+	background-color: rgba(0,0,0,0.4);
+	display: none;
+
+
+	.contenedor_info{
+		position: absolute;
+		top: 50%; left: 50%;
+		transform: translate(-50%, -50%);
+		width: 90%;
+		height: 80vh;
+		background-color: white;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		display: none;
+
+		-webkit-box-shadow: 10px 10px 46px 0px rgba(0,0,0,0.37);
+		-moz-box-shadow: 10px 10px 46px 0px rgba(0,0,0,0.37);
+		box-shadow: 10px 10px 46px 0px rgba(0,0,0,0.37);
+
+
+		.info_general{
+			width: 100%;
+			background-color: $colorSecundario;
+			padding: 15px 20px;
+			position: relative;
+
+
+			h3{
+				color: white;
+				padding: 0; margin: 0;
+			}
+
+			.exit_button{
+				position: absolute;
+				opacity: 0.6;
+				transition: 0.2s;
+				top: 11px; right: 20px;
+				cursor: pointer;
+
+				i{
+					color: white;
+					font-size: 30px;
+				}
+			}
+
+			.exit_button:hover{
+				opacity: 1;
+			}
+		}
+
+
+
+
+
+		.contenedor_scroll{
+			overflow-y: scroll;
+			overflow-x: hidden;
+			width: 100%;
+			height: 85%;
+			box-sizing: border-box;
+			padding: 15px 20px 15px 20px;
+
+
+			.opciones{
+				width: 100%;
+				padding: 15px 0;
+				border-bottom: 1px solid white;
+
+				h5{
+					text-align: center;
+				}
+
+				h6{
+					border: 1px solid $colorSecundario;
+					text-align: center;
+					margin: auto;
+					padding: 10px 0;
+					cursor: pointer;
+
+				}
+
+				.activate{
+					background-color: $colorSecundario;
+					color: white;
+					font-weight: bold;
+				}
+			}
+
+			.linea{
+				width: 100%;
+				border-top: 1px solid $colorSecundario;
+				margin: 10px 0;
+			}
+
+
+			.contenedor_check{
+				width: 100%;
+				padding: 10px 0;
+
+
+				label{
+					padding-left: 10px;
+				}
+
+			}
+
+
+			.campos_externos{
+				padding: 10px 0;
+				margin: 10px 0;
+				box-sizing: border-box;
+				display: none;
+			}
+
+
+			.password_new{
+				display: none;
+			}
+
+
+			.boton_completo{
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: bold;
+				margin: auto;
+			}
+
+
+
+
+			.contenedor_form_event_register{
+
+
+				textarea{
+					height: 40vh;
+					min-height: 200px;
+					max-height: 250px;
+				}
+
+				.users_select{
+					height: 95px;
+				}
+
+				.opcion_evento_create{
+					padding: 5px 5px;
+
+
+					.base{
+						display: block;
+
+						h5{
+							color: $colorSecundario;
+						}
+					}
+				}
+
+				.picker_custom{
+					height: 30px;
+				}
+			}
+
+
+
+
+		// contenedor_scroll
+		}
+
+
+	// contenedor_info
+	}
+
+
+
+	.single_line , .created_user, .add_folder, .upload_file, .add_recordatorio{
+		max-width: 500px;
+	}
+
+
+
+
+	.add_event{
+		max-width: 900px;
+	}
+
+// contenedor_emergente
+}
+
+
+
+.contenedor_respuesta_registro_user{
+    text-align: center;
+
+    h4, p, h6, input, small{
+        text-align: center;
+    }
+
+    input{
+        width: 100%;
+    }
+}

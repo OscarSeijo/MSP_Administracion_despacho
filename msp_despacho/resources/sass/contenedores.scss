@@ -1,0 +1,1535 @@
+
+.loading{
+	width: 25px;
+	margin-right: 10px;
+	display: none;
+
+	img{
+		width: 100%;
+	}
+}
+
+
+
+ .cont_table{
+ 	padding-bottom: 90px;
+ }
+
+
+.picker_custom{
+	padding: 10px 5px;
+	width: 100%;
+}
+
+
+
+
+.contenedor_flash_message{
+	width: 100%;
+	position: fixed;
+	bottom: 0; left: 0;
+	background-color: $colorSecundario;
+	z-index: 10000000;
+}
+
+
+
+
+.info_user{
+	box-sizing: border-box;
+	padding: 15px;
+	background-color: rgba($colorPrimario, 0.3);
+	border-radius: 10px;
+
+
+	i{
+		padding: 0 5px;
+	}
+
+	h5{
+		color: green;
+	}
+}
+
+
+.red_bordercolor{
+    border: 2px solid red;
+    background-color: rgba(red, 0.4);
+}
+
+.green_bordercolor{
+    border: 2px solid green;
+    background-color: rgba(green, 0.4);
+}
+
+
+
+.green_text{
+	color: green;
+}
+
+
+.red_text{ 
+	color: red;
+}
+
+
+
+
+
+.contenedor_general{
+	width: 100%;
+	height: auto;
+	background-color: #FAFAFA;
+	position: relative;
+	z-index: 1;
+
+
+
+
+
+
+
+	// //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	.contenedor_dashboard{
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		padding-top: 50px;
+		padding-left: 220px;
+		z-index: 1;
+
+
+
+
+
+		.cont_scroll{
+			width: 100%;
+			height: auto;
+			position: relative;
+			box-sizing: border-box;
+			overflow-x: scroll;
+			background-color: $white;
+			padding-bottom: 50px;
+		}
+
+
+
+
+
+
+
+
+		.contenedor_linea{
+			width: 100%;
+			padding: 30px 20px;
+			display: flex;
+			padding: 10px 20px;
+            padding-top: 25px;
+
+			h6, i{
+				font-size: 18px;
+			}
+
+			h6{
+				padding: 0 8px;
+				color: black;
+				opacity: 0.7;
+			}
+
+			.last{
+				color: $colorSecundario;
+			}
+
+
+			h6:hover{
+				opacity: 1;
+			}
+		}
+
+
+
+
+
+
+
+
+
+		.contenedor_usuarios_count{
+			max-width: $max-width; 
+			margin: 0; padding: 0;
+			padding: 10px 5%;
+			margin: auto;
+			height: auto;
+			padding-bottom: 10px;
+
+			.contenedor_datos{
+				height: auto;
+				background-color: $white;
+				border-radius: 20px;
+				box-sizing: border-box;
+				padding: 20px 25px;
+
+
+				-webkit-box-shadow: 4px 10px 29px 0px rgba(0,0,0,0.06);
+				-moz-box-shadow: 4px 10px 29px 0px rgba(0,0,0,0.06);
+				box-shadow: 4px 10px 29px 0px rgba(0,0,0,0.06);
+
+
+				h1{
+					color: $colorPrimario;
+					padding: 0; margin: 0;
+				}
+			}
+
+			.contenedor_datos_departamentos{
+				height: auto!important;
+			}
+
+
+
+		}
+
+
+
+
+
+
+
+
+		.contenedor_datos{
+
+			h3{
+				color: $colorPrimario;
+				font-weight: bold;
+			}
+
+
+			.info_activities{
+				padding-top: 10px;
+
+				.imagen{
+					width: 50px;
+					height: 50px;
+					overflow: hidden;
+					border-radius: 100px;
+
+					img{
+						width: 110%;
+					}
+				}
+
+				h5{
+					color: $colorSecundario;
+				}
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		.contenedor_inicio{
+			z-index: 1;
+			width: 100%;
+			height: auto;
+			background-color: $colorSecundario;
+			position: relative;
+			padding: 50px 0;
+			margin-bottom: 0px!important;
+
+			h2, h5{
+				text-align: center;
+				color: white;
+			}
+
+
+			.contenedor_opciones{
+				position: relative;
+				width: 100%;
+				height: auto;
+                padding-top: 20px;
+
+
+				.opciones{
+
+					width: 85%;
+					margin: auto;
+
+					.opcion_dashboard{
+						height: 250px;
+						background-color: white;
+						box-sizing: border-box;
+						padding: 20px 20px;
+
+						-webkit-box-shadow: -1px 2px 31px 0px rgba(0,0,0,0.11);
+						-moz-box-shadow: -1px 2px 31px 0px rgba(0,0,0,0.11);
+						box-shadow: -1px 2px 31px 0px rgba(0,0,0,0.11);
+						cursor: pointer;
+
+						.imagen{
+							width: 45%;
+							margin: auto;
+							margin-bottom: 20px;
+
+							img{
+								width: 100%;
+							}
+						}
+
+						h6, p{
+							text-align: center;
+							padding-bottom: 5px;
+						}
+
+						p{
+							margin: 0; padding: 0;
+						}
+					}
+
+
+					.opcion_dashboard:hover{
+						-webkit-box-shadow: -1px 2px 31px 0px rgba(0,0,0,0.21);
+						-moz-box-shadow: -1px 2px 31px 0px rgba(0,0,0,0.21);
+						box-shadow: -1px 2px 31px 0px rgba(0,0,0,0.21);
+					}
+
+				}
+
+			// contenedor_opciones
+			}
+
+
+		//contenedor_inicio
+		}
+
+
+
+
+ 
+
+
+		//// ////////////////////////////////////////////////////////////////////////////
+		//// ////////////////////////////////////////////////////////////////////////////
+		//// ////////////////////////////////////////////////////////////////////////////
+		//// ////////////////////////////////////////////////////////////////////////////
+		.tableStyle{
+			width: 100%;
+			height: auto;
+			box-sizing: border-box;
+			margin-bottom: 20px;
+			padding: 20px 10px 10px 10px ;
+			display: none;
+
+			display: flex;
+			flex-direction: row;
+			//justify-content: flex-start;
+			justify-content: space-around;
+
+
+			h6, p{
+				padding: 0; margin: 0;
+			}
+
+			h6{
+				font-weight: bold;
+				padding-bottom: 5px;
+			}
+
+			p{
+				font-weight: bold;
+			}
+
+			button{
+				background-color: rgba(black, 0);
+				border: 0px;
+				text-decoration: none;
+			}
+
+
+			.cuadros{
+				padding: 0 10px;
+			}
+
+
+			.linea{
+				width: 1px;
+				height: 40px;
+				margin: 0 10px;
+			}
+
+
+
+			.checkbox{
+				width: 20px;
+			}
+
+
+			.botones{
+				align-items: flex-end;
+			}
+
+
+			.time{
+				i{
+					padding-right: 5px;
+				}
+			}
+
+
+
+
+
+			.opciones{
+				opacity: 0.7;
+				transition: 0.2s;
+				cursor: pointer;
+
+
+				i{
+					font-size: 25px;
+					padding: 5px;
+					color: white;
+
+				}
+
+
+			}
+
+
+			.opciones:hover{
+				opacity: 1;
+			}
+
+
+
+
+			.recibido{
+				display: flex;
+				flex-direction: row;
+
+				.imagen{
+					width: 50px;
+					height: 50px;
+					border-radius: 200px;
+					overflow: hidden;
+					background-color: white;
+					margin-right: 10px;
+					margin-top: -10px;
+
+					img{
+						width: 110%;
+					}
+				}
+
+			}
+
+
+			.name_document{
+				width: 240px;
+				overflow: hidden;
+			}
+
+
+
+		// tablestyle
+		}
+
+
+
+
+
+		.number_par{
+			background-color: $colorSecundario;
+			-webkit-box-shadow: 3px 7px 30px 0px rgba(0,0,0,0.22);
+			-moz-box-shadow: 3px 7px 30px 0px rgba(0,0,0,0.22);
+			box-shadow: 3px 7px 30px 0px rgba(0,0,0,0.22);
+
+
+			.linea{
+				border: 0.5px solid $white;
+			}
+
+
+			h6, p{
+				color: white;
+			}
+
+
+			.opciones{
+
+				i{
+
+					color: white;
+
+				}
+
+			}
+
+		// numero par
+		}
+
+
+
+		.number_impar{
+
+			.linea{
+				border: 0.5px solid black;
+			}
+
+			h6, p{
+				color: black;
+			}
+
+
+			.opciones{
+
+				i{
+
+					color: black;
+
+				}
+
+			}
+
+		// numero impar
+		}
+
+
+
+		//// ////////////////////////////////////////////////////////////////////////////
+		//// ////////////////////////////////////////////////////////////////////////////
+		//// ////////////////////////////////////////////////////////////////////////////
+		//// ////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+		.contenedor_bajo{
+			margin-top: 20px;
+			max-width: $max-width;
+			width: 90%;
+			margin: auto;
+			padding: 60px 0;
+			position: relative;
+			z-index: 10;
+
+
+			.cont_table{
+
+
+				.boton_more{
+					text-align: right;
+				}
+
+
+				a{
+					text-align: right;
+					font-size: 13px;
+					color: green;
+					cursor: pointer;	
+				}
+
+				i{
+					font-size: 15px;
+					margin-right: 5px;
+				}
+			}
+
+		}
+
+
+
+
+		.contenedor_centro{
+			width: 90%;
+			margin: 30px auto;
+
+		}
+
+
+		.contenedor_actividad{
+			width: 100%;
+			height: 200px;
+			background-color: $white;
+			margin: auto;
+		}
+
+
+
+
+
+
+		.formulario_contenedor{
+
+
+			.titulo_tablas{
+				width: 70%;
+				padding: 20px 0;
+
+
+				h5, h6{
+					padding-bottom: 10px;
+				}
+
+				h5{
+					color: $colorPrimario;
+				}
+			}
+		}
+
+
+		.contenedor_tabla{
+			width: 90%;
+			max-width: $max-width;
+			overflow-x: scroll;
+			margin: auto;
+			margin-top: 15px;
+			padding: 10px 20px;
+
+
+
+			.cabezera_tables{
+				border: 0px;
+				text-decoration: none;
+			}
+
+		}
+
+
+		.departamentos_table{
+
+		}
+
+
+
+	// contenedor_dashboard
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+
+
+    // PROFILE STYLE
+    .contenedor_información{
+        width: 90%;
+        max-width: $max-width;
+        margin: 30px auto;
+        padding: 20px 0;
+
+
+
+        .datos_principal{
+            width: 100%;
+            max-width: 550px;
+            margin: auto;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: left;
+            align-items: baseline;
+
+            .avatar{
+                width: 160px;
+                height: 160px;
+                border-radius: 100px;
+                overflow: hidden;
+                background-color: black;
+
+                img{
+                    width: 110%;
+                }
+            }
+
+
+            .info_general{
+                padding: 0px 30px;
+
+                h3{
+                    color: $colorPrimario;
+                    font-weight: bold;
+                }
+
+                h6{
+                    font-size: 14px;
+                }
+
+
+            }
+        // Datos principal
+        }
+
+        .información_secundaria{
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: auto;
+            background-color: white;
+
+
+            .button_contenedor{
+                width: 100%;
+                box-sizing: border-box;
+                padding: 10px;
+
+                .boton{
+                    width: 100%;
+                    padding: 10px;
+                    text-align: center;
+                    list-style: none;
+                    background-color: $colorSecundario;
+                    color: white;
+                    opacity: 0.7;
+                    cursor: pointer;
+                }
+
+                .boton:hover{
+                    opacity: 1;
+                }
+
+            }
+        }
+
+    // contenedor_información
+    }
+
+
+
+
+
+
+
+
+
+    ///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+
+
+	// DOCUMENTO STYLE
+	.contenedor_carpetas{
+		width: 90%;
+		max-width: $max-width;
+		margin: 30px auto;
+		padding: 20px 0;
+
+		border: 1px 0px 1px 0 solid black;
+
+
+		.titulos_opciones{
+			position: relative;
+
+			.button_created{
+				display: flex;
+			}
+		}
+
+
+
+
+
+
+
+
+
+		.contenedor_carpetas_seccion{
+			margin: 20px 0;
+
+
+			h5{
+				text-align: left;
+				color: $colorSecundario;
+			}
+
+
+
+			.documento_name{
+				padding: 10px 0;
+			// Documento_name
+			}
+
+		// contenedor_carpetas_seccion
+		}
+
+
+
+
+
+		.documento_imagen{
+			box-sizing: border-box;
+			padding: 10px;
+			overflow: hidden;
+
+					.imagen{
+						width: 100%;
+						height: 150px;
+						overflow: hidden;
+
+						img{
+							width: 100%;
+						}
+					}
+
+					.texto{
+						width: 100%;
+						padding: 10px 10px;
+						background-color: white;
+						text-align: center;
+
+						.opciones_documentos{
+							width: 100%;
+							margin: auto;
+							padding: 10px 0 10px 0;
+							display: none;
+
+							.opciones{
+								margin: auto;
+
+								i{
+									font-size: 22px;
+									color: $colorSecundario;
+								}
+							}
+						}
+					// texto
+					}
+
+				// documento_imagen
+				}
+
+
+				.documento_imagen:hover{
+
+
+					.texto{
+
+						.opciones_documentos{
+							display: flex;
+						}
+					}
+
+
+				// documento_imagen_hover
+				}
+
+
+
+
+
+
+		.carpetas_name{
+			display: flex;
+
+
+
+			.carpeta{
+				display: flex;
+				margin: 10px 15px;
+				padding: 20px 20px 10px 10px;
+				cursor: pointer;
+				border: none;
+				text-decoration: none;
+				background-color: rgba(black, 0);
+
+				i{
+					margin-right: 10px;
+				}
+
+				h6{
+					cursor: pointer;
+				}
+
+				.opciones{
+					display: none;
+					margin-left: 15px;
+					margin-top: -3px;
+
+					i{
+						font-size: 20px;
+					}
+				}
+			}
+
+			.carpeta:hover{
+				color: $colorSecundario;
+
+				.opciones{
+					display: block;
+				}
+			}
+
+
+		// carpetas_name
+		}
+
+
+
+
+
+	// contenedor_carpetas
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+	
+
+	/// CALENDARIO STYLE
+
+	.calendario_opcion{
+		padding: 0;
+		margin: 0;
+		background-color: white;
+	}
+
+
+
+	.contenedor_resultado_calendario{
+		width: 100%;
+		padding: 10px 20px;
+		height: auto;
+
+
+		.contenedor_respuesta{
+			width: 100%;
+		}
+
+
+
+		.contenedor_add{
+			width: 100%;
+
+			button{
+				text-decoration: none;
+				border: none;
+				width: 100%;
+				border-radius: 20px;
+				background-color: $colorSecundario;
+				margin: 20px 0;
+
+				h4{
+					margin: 0; padding: 0;
+					padding: 20px 0;
+					color: white;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+
+	.buton_menu_calendario{
+			position: fixed;
+			top: 75px;	right: 40px;
+
+			i{
+				font-size: 30px;
+				
+			}
+		}
+
+
+
+	.contenedor_calendar_dahsboard{
+		position: relative;
+
+
+
+
+
+
+		.contenedor_hours{
+			width: 100%;
+			height: 85vh;
+			margin: 0; padding: 0;
+			padding-right: 310px;
+			overflow: hidden;
+			overflow-y: scroll;
+			box-sizing: border-box;
+
+
+
+			.contenedor_calendario_count{
+				padding: 10px 20px;
+				max-width: $max-width; 
+				margin: 0; padding: 10px;
+				margin: auto;
+				height: auto;
+				padding-bottom: 10px;
+
+				.contenedor_datos{
+					background-color: $white;
+					border-radius: 20px;
+					box-sizing: border-box;
+					padding: 20px 25px;
+
+					height: 90px!important;
+					-webkit-box-shadow: 4px 10px 29px 0px rgba(0,0,0,0.06);
+					-moz-box-shadow: 4px 10px 29px 0px rgba(0,0,0,0.06);
+					box-shadow: 4px 10px 29px 0px rgba(0,0,0,0.06);
+
+
+					h4{
+						color: $colorPrimario;
+						padding: 0; margin: 0;
+					}
+				}
+
+				.contenedor_datos_departamentos{
+					height: auto!important;
+				}
+
+
+
+			}
+
+
+
+			.contenedor_resultados_data{
+				width: 100%;
+				height: auto;
+				
+				box-sizing: border-box;
+				padding: 10px;
+
+
+				.contenedor_resultado_eventos{
+					box-sizing: border-box;
+					padding: 0 15px;
+
+
+					.evento_show{
+						padding: 10px 15px 5px 15px;
+						background-color: rgba($colorPrimario, 0.2);
+						box-sizing: border-box;
+						border-radius: 10px;
+						//border-left: 5px solid green;
+						margin-bottom: 10px;
+						position: relative;
+
+
+						.opciones_up{
+    						position: absolute!important;
+    						top: 10px; right: 20px;
+    						z-index: 10;
+
+
+    						a{
+    							text-decoration: none;
+    							color: black;
+    						}
+
+    						i{
+    							margin: 0 3px;
+    						}
+    					}
+
+
+						.datos{
+							//display: flex;
+							//justify-content: space-between;
+
+							.dat{
+								display: flex;
+								justify-content: left;
+
+								i{
+									padding-right: 5px;
+								}
+							}
+						}
+
+
+						.show_more_button{
+							width: 100%;
+							text-align: center;
+							border: 0px;
+							background-color: white;
+							color: $colorPrimario;
+							padding: 5px 0;
+							margin-bottom: 10px;
+						}
+
+
+
+						.more_info{
+							width: 100%;
+							display: none;
+
+							.usuarios_invitados{
+
+								.titulo{
+									padding-bottom: 5px;
+								}
+
+								.usuarios{
+									background-color: rgba($colorPrimario, 0.4);
+									box-sizing: border-box;
+									padding: 10px;
+
+									.usuario_info{
+										padding: 5px 0;
+
+										.imagen{
+											width: 30px;
+											height: 30px;
+											margin: auto;
+											border-radius: 100px;
+											background-color: white;
+											overflow: hidden;
+
+											img{
+												width: 110%;
+
+											}
+										}
+
+									// usuarios_info
+									}
+								// usuarios
+								}
+
+							//usuarios_invitados
+							}
+
+							h6, p, i{
+								padding: 0; margin: 0;
+							}
+
+							.info{
+								box-sizing: border-box;
+								padding: 0 5px;
+								
+							}
+
+
+							.documento_link{
+								display: flex;
+								justify-content: left;
+								padding: 10px 0;
+
+								h6{
+									padding-right: 5px;
+								}
+							}
+
+						// more_info
+						}
+
+					// Evento_show
+					}
+
+
+				}
+
+
+
+
+
+
+
+				.contenedor_resultado_recordatorios{
+
+					.recordatorios{
+						box-sizing: border-box;
+						padding: 15px;
+						background-color: rgba($colorSecundario, 0.6);
+						border-radius: 10px;
+						margin-bottom: 10px;
+						position: relative;
+
+
+						-moz-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.09);
+    					-webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.09);
+    					box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.09);
+
+    					.opciones_up{
+    						position: absolute;
+    						top: 10px; right: 10px;
+
+    						a{
+    							text-decoration: none;
+    							color: black;
+    						}
+    					}
+
+    					p, h5{
+    						padding: 0; margin: 0;
+    						padding-bottom: 5px;
+    					}
+
+
+    					.info{
+    						display: flex;
+    						justify-content: space-between;
+
+    						small{
+    							font-weight: bold;
+    						}
+
+    						.opciones{
+    							display: flex;
+    							justify-content: space-between;
+    							padding-top: 5px;
+
+    							.opcion{
+    								cursor: pointer;
+    							}
+
+    							p{
+    								font-weight: bold;
+    								padding: 0 5px;
+    								
+    							}
+
+
+    							.descartar_button{
+
+    								p, i{
+    									color: $colorPrimario;
+    								}
+    								
+    							}
+    						}
+    					}
+
+
+					}
+
+				// contenedor_resultado_recordatorios
+				}
+
+
+			// contenedor_resultados_data
+			}
+
+
+
+
+		// contenedor_hours
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+		.contenedor_opciones_calendar{
+			position: fixed;
+			top: 0; right: 0;
+			width: 40%;
+			max-width: 300px;
+			height: 100vh;
+			background-color: white;
+			box-sizing: border-box;
+			padding: 10px;
+			z-index: 10;
+
+			-moz-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.05);
+    		-webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.05);
+    		box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.05);
+
+
+    		.boton_close{
+    			width: 100%;
+    			margin-top: 10px;
+    			display: none;
+
+    			button{
+    				width: 100%;
+    				background-color: $colorSecundario;
+    				padding: 5px 0;
+    				text-align: center;
+    				margin: auto;
+    				text-align: center;
+    				color: white;
+    				font-weight: bold;
+    			}
+    		}
+
+			.calendar_pick{
+				width: 100%;
+				margin-bottom: 10px;
+				padding-top: 50px;
+
+
+				.contenedor_fecha_picker{
+					width: 100%;
+					padding: 10px 0;
+
+					h5{
+						text-align: center;
+					}
+
+
+					b{
+						color: $colorSecundario;
+					}
+				}
+
+			}
+
+
+			.calendar_upcoming{
+				padding: 15px 0;
+				overflow-y: scroll;
+				height: 60vh;
+				max-height: 900px;
+				padding-bottom: 50px;
+				box-sizing: border-box;
+
+				h6{
+					font-size: 16px;
+					font-weight: bold;
+					color: black;
+					opacity: 0.5;
+				}
+
+
+				.contendor_eventos_mes{
+					width: 100%; 
+					padding: 5px 0 10px 0;
+
+					.evento{
+						width: 100%;
+						box-sizing: border-box;
+						padding: 10px;
+    					align-items: center;
+    					border-left: 4px solid $colorPrimario;
+    					margin-bottom: 10px;
+
+						background-color: white;
+						-moz-box-shadow: 10px 6px 5px 0px rgba(0, 0, 0, 0.09);
+    					-webkit-box-shadow: 10px 6px 5px 0px rgba(0, 0, 0, 0.09);
+    					box-shadow: 10px 6px 5px 0px rgba(0, 0, 0, 0.09);
+    					transition: 0.3s;
+
+
+    					.contenedor_dato{
+    						display: flex;
+    						justify-content: space-between;
+    						height: 50px;
+
+    						.events_item{
+	    						display: block;
+
+	    						.events_name{
+	    							font-size: 15px;
+	    							color: black;
+	    							display: block;
+	    							padding-bottom: 5px;
+	    						}
+
+	    						.events_date{
+	    							height: 20px;
+	    							font-size: 13px;
+	    							color: black;
+	    							opacity: 0.6;
+	    							display: block;
+	    						}
+	    					}
+
+
+	    					.events_tag{
+	    						height: 25px!important;
+	    						color: white;
+	    						font-size: 11px;
+	    						padding: 5px 10px;
+	    						border-radius: 20px;
+	    						background-color: $colorPrimario;
+
+	    						-moz-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+	    						-webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+	    						box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+	    					}
+
+
+    					}
+    					
+
+
+    					.contenedor_option{
+    						width: 100%;
+    						height: 30px;
+    						margin-top: 5px;
+    						display: none;
+    						transition: 0.3s;
+
+
+    						.opciones{
+    							display: flex;
+    							justify-content: space-between;
+    						}
+    					}
+
+
+
+    				// Evento
+					}
+
+
+					.evento:hover{
+    					border-left: 9px solid $colorPrimario;
+						-moz-box-shadow: 10px 6px 5px 0px rgba(0, 0, 0, 0.18);
+    					-webkit-box-shadow: 10px 6px 5px 0px rgba(0, 0, 0, 0.18);
+    					box-shadow: 10px 6px 5px 0px rgba(0, 0, 0, 0.18);
+
+
+    					.contenedor_option{
+    						display: block;
+    					}
+
+    				// Evento hover
+    				}
+
+
+
+				//Contenedor_eventos_mes
+				}
+			//calendar_upcoming
+			}
+
+
+
+			.calendar_options{
+				width: 100%;
+				position: absolute;
+				bottom: 0; left: 0;
+				background-color: $colorPrimario;
+				padding: 10px;
+				box-sizing: border-box;
+				display: flex;
+				justify-content: space-around;
+
+
+				button{
+					text-decoration: none;
+					border: 0px;
+
+					font-size: 13px;
+					font-weight: bold;
+					color: white;
+
+					background-color: $colorSecundario;
+					padding: 10px 15px;
+				}
+			}
+
+		// contenedor_opciones_calendar
+		}
+	// contenedor_calendar_dashboard
+	}
+
+
+
+
+
+
+
+
+
+	///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+	///// ////////////////////////////////////////////////////////////////////////////////
+	
+
+
+
+
+
+// Contenedor_general
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

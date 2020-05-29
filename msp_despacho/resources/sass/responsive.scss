@@ -1,0 +1,1005 @@
+
+@media screen and (max-width: 992px) {
+
+
+
+
+
+        // CONTENEDOR FORMULARIO PARA LOGIN Y REGISTROS
+		.contenedor_Auth{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+
+            .contenedor_imagen, .contenedor_formulario{
+                width: 100%;
+                height: 100vh;
+                overflow: hidden;
+            }
+
+
+
+            .contenedor_imagen{
+                background-color: black;
+                display: none;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+
+
+            .contenedor_formulario{
+                display: flex;
+                align-self: center;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                position: relative;
+
+
+                .data_cont{
+                    flex-direction: row;
+                    text-align: center;
+                    width: 90%;
+                    min-height: 400px;
+
+                    margin: auto;
+                    overflow-y: scroll;
+
+                    .info_header{
+
+                        h1{
+                            color: $colorPrimario;
+                            text-transform: uppercase;
+                            padding-bottom: 10px;
+                        }
+
+                        h5{
+                            color: $colorPrimario;
+                        }
+
+                        h6{
+                            color: grey;
+                            padding-bottom: 20px;
+                        }
+
+                        p{
+                            width: 70%;
+                            max-width: 450px;
+                            margin: auto;
+                            padding-bottom: 15px;
+                        }
+                    }
+
+
+                    label{
+                        text-align: left;
+                        display: nome;
+                    }
+
+                    .formulario{
+                        max-width: 70%;
+                        max-width: 350px;
+                        margin: auto;
+                    }
+
+
+                    .form_option{
+                        width: 95%;
+                        margin: auto;
+                        padding-bottom: 10px;
+                        padding-left: 10px;
+
+                        label, p{
+                            font-size: 12px;
+                            color: grey;
+                        }
+
+                        .remember_buton{
+                            text-align: left;
+                        }
+
+
+                        p{
+                            font-weight: bold;
+                            padding-top: 5px;
+                        }
+
+                    }
+
+
+
+
+
+
+
+                    .boton_form{
+                        width: 100%;
+                        background-color: $colorSecundario;
+                        border: 0px;
+                    }
+
+
+                    .icon{
+                        font-size: 14px;
+                        color: white;
+                        padding-right: 5px;
+                    }
+
+
+                    .text_bottom{
+                        padding-top: 20px;
+                    }
+
+
+                // data_cont
+                }
+
+            // contenedor_formulario
+            }
+
+
+
+
+        // Contenedor_Auth
+        }
+
+
+
+
+
+
+
+
+    // NAV RESPONSIVE
+
+    .top_nav{
+
+        .contenedor{
+            padding-left: 40px!important;
+
+            .nav_icon_responsive{
+                display: block!important;
+            }
+
+            .contenedor_search{
+                .contenedor_resultado_busqueda_rapida{
+                }
+                // Contenedor_search
+            }
+
+
+            .info_user_menu{
+
+                .notification{
+                    .cont_emer_notificaciones{}
+                }
+
+
+                // info_user_menu
+            }
+            // contenedor
+        }
+        // top_nav
+    }
+
+
+
+
+
+
+    .left_nav{
+        width: 35%!important;
+        max-width: 380px!important;
+        height: 100vh;
+        background-color: white;
+        padding-right: 5px;
+        z-index: 10;
+        position:fixed;
+        top: 0; left: -100%!important;
+        border-right: 0.2px solid rgba(black, 0.3);
+
+        .logo_cont{
+            width: 100%;
+            max-width: 300px;
+            box-sizing: border-box;
+            padding-bottom: 10px;
+            border-bottom: 1.5px solid $white;
+
+            img{
+                width: 100%;
+                padding: 0px 25px;
+                margin-left: -10px;
+            }
+
+            // logo_cont
+        }
+
+        .opciones_menu{
+            height: 55vh;
+            padding-top: 20px;
+            overflow: hidden;
+            border-bottom: 1px solid $white;
+            padding: 0px 0px;
+            box-sizing: border-box;
+
+            .scroll{
+                height: 100%;
+                overflow-y: scroll;
+                padding: 5px 0;
+            }
+
+            .opcion{
+                width: 100%;
+                display: flex;
+                cursor: pointer;
+                padding: 10px 32px 5px 32px;
+
+                a{
+                    text-decoration: none;
+                }
+
+                i, h5{
+                    color: black;
+
+                }
+
+                h5{
+                    opacity: 0.6;
+                }
+
+                i{
+                    font-size: 20px;
+                    padding-right: 15px;
+                }
+            }
+
+            .opcion:hover{
+                background-color: #E7E7E7;
+
+                h5{
+                    opacity: 1;
+                }
+            }
+            // opciones_menu
+        }
+
+
+        .proyectos{
+            height: 37vh;
+            padding: 20px 20px;
+            position: relative;
+
+            h5{
+                color: white;
+
+            }
+
+
+            .proyect_name{
+                display: flex;
+                padding: 5px 0;
+
+                .color_tag{
+                    margin-right: 10px;
+                    width: 15px;
+                    height: 15px;
+                    background-color: green;
+                    border: 1px solid white;
+                    border-radius: 100px;
+                }
+
+                h6{
+                    color: white;
+                }
+            }
+
+
+            .button_proyect{
+                position: absolute;
+                bottom: 0; left: 0;
+                width: 100%;
+
+
+
+                i{
+                    font-size: 13px;
+                    padding-right: 5px;
+                }
+
+                .boton{
+                    width: 100%;
+                    background-color: $colorSecundario;
+                    color: white;
+                    text-decoration: none;
+                    border: 0px;
+                    padding: 10px 0;
+                    border-radius: 0;
+
+                    font-size: 13px;
+                }
+
+            }
+        }
+
+
+
+        // left_nav
+    }
+
+
+
+
+
+    .contenedor_dashboard {
+        padding-left: 0px!important;
+    }
+
+
+
+
+
+
+
+// MAX 992PX
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+/* On screens that are 789px or less, set the website tablet */
+@media screen and (max-width: 789px) {
+
+
+
+    // NAV RESPONSIVE
+
+    .top_nav{
+
+        .contenedor{
+            padding-left: 40px!important;
+
+            .nav_icon_responsive{
+                display: block!important;
+            }
+
+            .contenedor_search{
+                display: none;
+                .contenedor_resultado_busqueda_rapida{
+                    position: fixed;
+                    left: 0;
+                    width: 100%!important;
+                    height: 70vh!important;
+                    min-height: none!important;
+                    max-height: none!important;
+                    background-color: white;
+                    display: block!important;
+
+
+                }
+                // Contenedor_search
+            }
+
+
+            .info_user_menu{
+
+                .notification{
+                    .cont_emer_notificaciones{}
+                }
+
+
+                // info_user_menu
+            }
+            // contenedor
+        }
+        // top_nav
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .contenedor_dashboard{
+
+
+        .cont_scroll{
+            padding-bottom: 0px!important;
+            height: 100vh!important;
+        }
+    }
+
+
+    .contenedor_inicio{
+
+        .contenedor_opciones {
+            position: relative!important;
+            width: 100%;
+            padding: 20px 0;
+            top: 0!important;
+            bottom: none!important;
+            left: none!important;
+        }
+
+
+
+
+
+
+    }
+
+
+    .contenedor_bajo{
+        margin-top: 0px!important;
+        max-width: $max-width;
+        width: 90%;
+        margin: auto;
+        padding: 60px 0;
+        position: relative;
+        z-index: 10;
+        display: none!important;
+
+    }
+
+
+
+
+
+    // CALENDARIO
+
+    .contenedor_calendar_dahsboard{
+
+        .contenedor_hours{
+            padding-right: 0px!important;
+        }
+
+
+
+        .contenedor_opciones_calendar{
+            right: -100%!important;
+            width: 50%!important;
+            max-width: 350px!important;
+            padding: 10px;
+            transition: 0.3s;
+            z-index: 100000000000;
+
+            .boton_close{
+                display: block!important;
+            }
+
+
+            .calendar_upcoming{
+                padding: 15px 0;
+                height: 60vh;
+
+                padding-bottom: 50px;
+
+                h6{
+                    font-size: 14px;
+
+                }
+
+
+                .contendor_eventos_mes{
+                    padding: 5px 0 10px 0;
+
+                    .evento{
+                        padding: 10px;
+
+                     
+                        .contenedor_dato{
+                            display: flex;
+                            justify-content: space-between;
+                            height: 50px;
+
+                            .events_item{
+
+                                .events_name{
+                                    font-size: 15px;
+                                }
+
+                                .events_date{
+                                    height: 20px;
+                                    font-size: 13px;
+                                }
+                            }
+
+
+                            .events_tag{
+                                height: 25px!important;
+                                font-size: 11px;
+                                padding: 5px 10px;
+                            }
+
+
+                        }
+                        
+
+
+                        .contenedor_option{
+                            width: 100%;
+                            height: 30px;
+                            display: none;
+
+
+                            .opciones{
+                                display: block!important;
+                                display: none;
+                                justify-content: column;
+                            }
+                        }
+
+
+
+                    // Evento
+                    }
+
+
+                   
+
+
+                //Contenedor_eventos_mes
+                }
+            //calendar_upcoming
+            }
+
+
+
+            .calendar_options{
+                width: 100%;
+                position: absolute;
+                bottom: 0; left: 0;
+                background-color: $colorPrimario;
+                padding: 10px;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-around;
+
+
+                button{
+                    text-decoration: none;
+                    border: 0px;
+
+                    font-size: 13px;
+                    font-weight: bold;
+                    color: white;
+
+                    background-color: $colorSecundario;
+                    padding: 10px 15px;
+                }
+            }
+
+        // contenedor_opciones_calendar
+        }
+
+
+
+        .contenedor_opciones_calendar_on{
+            right: 0%!important;
+        }
+    }
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // MAX 789px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (orientation: landscape) and (max-width: 680px) {
+      // CONTENEDOR FORMULARIO LOGIN
+    .contenedor_Auth{
+        .contenedor_formulario{
+
+            .data_cont{
+                padding: 20% 0% 40% 0%;
+                width: 90%;
+                height: 100vh;
+
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 520px) {
+
+
+
+
+
+
+
+
+
+    // NAV RESPONSIVE
+
+    .top_nav{
+
+        .contenedor{
+            padding-left: 40px!important;
+
+            .nav_icon_responsive{
+                display: block!important;
+            }
+
+
+
+            .info_user_menu{
+                right: 0px!important;
+
+
+                .notification{
+
+
+                    .cont_emer_notificaciones{
+                        position: absolute;
+                        left: -250%!important;
+                        width: 300px;
+                        max-width: 400px;
+
+
+                        .noti{
+                            padding: 0;
+                            margin: 0;
+                            padding: 10px;
+                            display: flex;
+                            justify-content: left;
+                            border-bottom: 1px solid black;
+
+                            .imagen{
+                                width: 40px;
+                                height: 40px;
+                                border-radius: 200px;
+                                overflow: hidden;
+                                margin-right: 10px;
+                                background-color: white;
+
+                                img{
+                                    width: 100%;
+                                }
+                            }
+
+                            .info{
+                                width: 330px;
+
+                                p, h6, i{
+                                    margin: 0;
+                                    padding: 0;
+                                }
+
+                                h6{
+                                    color: $colorPrimario;
+                                }
+
+                                p{
+                                    font-size: 13px;
+                                }
+
+                                i{
+                                    font-size: 13px;
+                                    padding-right: 5px;
+                                }
+                            }
+                        }
+
+                        .seeMore{
+                            width: 100%;
+                            button{
+                                width: 100%;
+                                border: 0px;
+                                padding: 10px 0;
+                                font-weight: bold;
+                                background-color: $colorPrimario;
+                                border-style: none;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+
+                .icon{
+                    padding: 0 10px;
+                    border-right: 0.5px solid rgba(black, 0.4);
+                    border-left: 0.5px solid rgba(black, 0.4);
+
+                    i{
+                        font-size: 25px;
+                        padding: 10px;
+                    }
+                }
+
+
+
+
+                .user{
+                    padding: 5px 10px;
+                    display: flex;
+
+                    .avatar{
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 100px;
+                        overflow: hidden;
+
+                        img{
+                            width: 110%;
+                        }
+                    }
+
+                    .name{
+                        display: none;
+                    }
+                // user
+                }
+
+                // info_user_menu
+            }
+
+
+        // contenedor
+        }
+        // top_nav
+    }
+
+
+
+    .left_nav{
+        width: 70%!important;
+        max-width: 380px!important;
+    }
+
+
+
+
+
+
+
+
+
+
+    .datos_principal{
+        justify-content: column;
+
+
+        .avatar{
+            width: 100%!important;
+            margin: auto;
+
+        }
+
+        .info_general{
+            width: 100%!important;
+            padding: 10px 0;
+        }
+    }
+
+
+
+
+
+
+
+
+
+    // CALENDARIO
+
+    .contenedor_calendar_dahsboard{
+
+
+
+
+        .contenedor_opciones_calendar{
+            width: 90%!important;
+            max-width: 400px!important;
+
+
+            .calendar_upcoming{
+                padding: 15px 0;
+                height: 60vh;
+
+
+                .contendor_eventos_mes{
+                    padding: 5px 0 10px 0;
+
+                    .evento{
+                        padding: 10px;
+
+                     
+                       
+
+                        .contenedor_option{
+                            width: 100%;
+                            height: 50px!important;
+                            display: none;
+
+
+                            .opciones{
+
+                                i{
+                                    font-size: 20px;
+                                    margin: 0 5px;
+                                }
+                            }
+                        }
+
+
+
+                    // Evento
+                    }
+
+
+                   
+
+
+                //Contenedor_eventos_mes
+                }
+            //calendar_upcoming
+            }
+
+
+
+            .calendar_options{
+                width: 100%;
+                position: absolute;
+                bottom: 0; left: 0;
+                background-color: $colorPrimario;
+                padding: 10px;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-around;
+
+
+                button{
+                    text-decoration: none;
+                    border: 0px;
+
+                    font-size: 13px;
+                    font-weight: bold;
+                    color: white;
+
+                    background-color: $colorSecundario;
+                    padding: 10px 15px;
+                }
+            }
+
+        // contenedor_opciones_calendar
+        }
+
+
+
+        .contenedor_opciones_calendar_on{
+            right: 0%!important;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px){
+    .contenedor_linea{
+        display: none;
+    }
+}
